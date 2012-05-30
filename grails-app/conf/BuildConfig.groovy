@@ -34,6 +34,8 @@ grails.project.dependency.resolution = {
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes eg.
 
         // runtime 'mysql:mysql-connector-java:5.1.16'
+        compile "commons-net:commons-net:3.1"
+        test "org.mockftpserver:MockFtpServer:2.3"
     }
 
     plugins {
